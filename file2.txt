@@ -1,0 +1,37 @@
+Version Control
+---
+-> It is a system that records all changes and modifications to files for tracking purpose
+-> Developer use source control or source code management
+-> It keeps track of changes when we make changes and who make the changes by specifying time and date and user
+-> Developers use this for peer review 
+-> There are different types of changes, such as adding new files, modifying or updating files, and deleting files
+
+Continuous Integration(CI)
+--
+-> Used to automate the integration of code from multiple developers into a single main stream
+Continuous Delivery:
+Once code merged get merged into main stream it prepares for deployment On
+Continuous Deployment is an extension of Continuous Delivery. 
+The goal of Continuous Deployment is to deploy and release software to customers frequently and safely.
+
+cd -> Change directory
+cd .. -> come into parent directory
+mkdir -> creating new folder
+touch -> creating a new file
+code example.js -> opening example file
+ls -> show contents in the current diretory
+pwd -> show the path of the directory
+
+git 
+--
+-> git is VCS that let you manage and keep track of source code history
+github is a cloud based ervice that let you manage git repository
+
+git clone "git-link"
+git status -> It checks it commits are currently there
+git commit -m "message"
+git branch -b "branch-name"
+-> The purpose of a pull request is to obtain a peer review of changes made to the branch
+git push
+git pull
+git checkout
